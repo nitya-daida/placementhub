@@ -1,313 +1,70 @@
-# 🎓 Placement Resource Hub – Stanley College
+# Getting Started with Create React App
 
-Placement Resource Hub is an internal web platform designed for students of **Stanley College of Engineering and Technology for Women** to share interview experiences, placement preparation resources, and company-specific interview questions.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The goal of this platform is to **preserve placement knowledge across batches** so that students can prepare more effectively for campus recruitment.
+## Available Scripts
 
-Instead of losing valuable insights every year through informal chats or WhatsApp groups, this platform stores them in a **centralized knowledge system**.
+In the project directory, you can run:
 
----
+### `npm start`
 
-# 🚀 Problem Statement
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Every year during campus placements:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* Students attend interviews
-* Companies ask technical and HR questions
-* Students gain valuable interview experience
-* Preparation resources are discovered
+### `npm test`
 
-However, this information is usually shared informally and **not stored permanently**.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-As a result:
+### `npm run build`
 
-* Future students start preparation from scratch
-* Interview questions asked in previous years are lost
-* Effective preparation strategies are not documented
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The **Placement Resource Hub** solves this problem by creating a **centralized platform where placement knowledge is documented and shared**.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# 💡 Solution
+### `npm run eject`
 
-Placement Resource Hub acts as a **knowledge-sharing platform for placements**, where:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* Students upload interview questions they faced
-* Selected students share preparation strategies
-* Mentors provide verified resources
-* Juniors learn from previous batches
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-It works like a **GitHub + Reddit + Resource Library for college placements**.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-# 🧠 Core Features
+## Learn More
 
-## 👩‍🎓 Student System
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Students can:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* Register using college email and roll number
-* Login securely
-* Add interview questions they faced
-* Upload preparation resources
-* Share placement success stories
-* Upvote useful content
-* Comment on posts
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-# 🏢 Company Interview Question Bank
+### Analyzing the Bundle Size
 
-This is the **main feature of the platform**.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Structure:
+### Making a Progressive Web App
 
-Company → Role → Year → Questions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Example:
+### Advanced Configuration
 
-Infosys
-System Engineer
-2025
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Each entry contains:
+### Deployment
 
-* Round type (Aptitude / Technical / Coding / HR)
-* Difficulty level (Easy / Medium / Hard)
-* Question description
-* Interview tips
-* Upvotes
-* Comments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Students can filter questions by:
+### `npm run build` fails to minify
 
-* Company
-* Role
-* Year
-* Round type
-
----
-
-# 📚 Resource Library
-
-A centralized preparation library containing resources for:
-
-* Aptitude preparation
-* Coding preparation
-* Core subjects (CSE, ECE, IT, etc.)
-* HR interview preparation
-* Mock interview platforms
-
-Resources can include:
-
-* PDFs
-* Google Drive links
-* YouTube playlists
-* Websites
-* Notes
-
-Students and mentors can upload resources.
-
----
-
-# 🌟 Success Stories
-
-Students who get placed can share their preparation journey including:
-
-* Preparation timeline
-* Daily routine
-* Resources used
-* Mistakes to avoid
-* Tips for juniors
-
-These posts serve as **real preparation blueprints for future batches**.
-
----
-
-# 🗳 Upvote and Review System
-
-To maintain content quality:
-
-Users can:
-
-* Upvote useful questions
-* Comment on resources
-* Review preparation posts
-
-Mentors can mark posts as:
-
-✔ Verified
-
-This helps highlight **trusted and useful content**.
-
----
-
-# 🧑‍🏫 Mentor Dashboard
-
-Mentors can:
-
-* Approve student submissions
-* Upload verified preparation resources
-* Moderate comments
-* Mark questions as verified
-
----
-
-# 🔒 Admin Dashboard
-
-Admins manage the entire platform.
-
-Admin features:
-
-* Manage users
-* Remove spam content
-* Approve mentor accounts
-* View analytics
-
-Analytics include:
-
-* Most viewed companies
-* Most upvoted resources
-* Most active contributors
-
----
-
-# 🏗 Tech Stack
-
-## Frontend
-
-* React
-* HTML
-* CSS
-* JavaScript
-
-## Backend
-
-* Node.js
-* Express.js
-
-## Database
-
-* MongoDB
-
-## Authentication
-
-* JWT Authentication
-
----
-
-# 🗂 Database Collections
-
-### Users
-
-* id
-* name
-* email
-* rollNumber
-* branch
-* year
-* role (student / mentor / admin)
-
-### Questions
-
-* companyName
-* role
-* year
-* roundType
-* difficulty
-* question
-* tips
-* postedBy
-* upvotes
-
-### Resources
-
-* title
-* category
-* description
-* link
-* uploadedBy
-* upvotes
-
-### SuccessStories
-
-* studentName
-* branch
-* company
-* preparationTimeline
-* tips
-* resourcesUsed
-
----
-
-# 🔍 Search and Filtering
-
-The platform supports search and filters for:
-
-Search:
-
-* Company names
-* Interview questions
-* Resources
-
-Filters:
-
-* Branch
-* Company
-* Role
-* Year
-
----
-
-# 📱 UX Features
-
-The platform includes:
-
-* Responsive design
-* Sidebar dashboard layout
-* Card-based UI
-* Loading states
-* Notifications
-* Confirmation modals
-
----
-
-# 🚀 Future Enhancements
-
-Possible future features include:
-
-* AI interview preparation suggestions
-* Mock test platform
-* Resume review system
-* Anonymous interview experience posting
-* Placement notifications
-
----
-
-# 🎯 Project Goal
-
-The goal of this project is to **create a sustainable placement knowledge system** where students help future batches succeed by sharing real interview experiences and preparation resources.
-
----
-
-# 👨‍💻 Author
-
-Developed by
-
-**Lucky**
-
-Student – Stanley College of Engineering and Technology for Women
-
----
-
-# ⭐ Contribution
-
-Future students and mentors can contribute by:
-
-* Uploading interview questions
-* Sharing preparation strategies
-* Adding useful resources
-
-Together we can build a **strong placement knowledge ecosystem for the college**.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
