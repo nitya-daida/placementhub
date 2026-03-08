@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import { BookOpen, Briefcase, Award, TrendingUp } from 'lucide-react';
+import { BookOpen, Briefcase, Award } from 'lucide-react';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import DoubtChat from '../components/dashboard/DoubtChat';
 import api from '../services/api';
